@@ -11,12 +11,11 @@
 #define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define FLOW_TAP_TERM 150
 
 #define AUTO_SHIFT_TIMEOUT 150
 
-#ifdef NKRO_ENABLE
-#    define FORCE_NKRO // Force NKRO if enabled.
-#endif
+#define NKRO_DEFAULT_ON true
 
 #ifdef OLED_ENABLE
 #    define OLED_TIMEOUT 20000
